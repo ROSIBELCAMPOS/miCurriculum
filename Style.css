@@ -1,0 +1,152 @@
+#container {
+    width: 1100px;
+    margin: 0px auto;
+    min-height: 500px;
+
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size:x-large;
+    text-align: center;
+}
+
+.icon{
+    text-align: center;
+    margin: 30px;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    
+}
+body{
+    background-color: beige;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.posicion{
+    clear: both;
+}
+
+#lateral{
+    float: left;
+    width: calc(30%-20px);
+    min-height: 200px;
+    padding: 10px;
+}
+
+#info{
+    
+    margin: 20px; 
+    
+    
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+}
+
+#Rosibel{
+    float: right;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    shape-image-threshold: initial;
+    clip-path: circle(200px at 100px 50%);
+    filter: drop-shadow(5px 5px 10px black);
+}
+
+.TitulosArticulos{
+    text-align: center;
+    font-family: 'Gill Sans';
+    width:1100px;
+    height: 130px;
+    margin: 30px;
+  
+}
+
+.habBlan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.habilidades{
+    padding: 5px;
+    text-align: center;
+    width: 150px;
+    margin: 20px;
+    
+}
+
+#imagen{
+    margin: 20px;
+    
+}
+
+
+.contenedortarjeta{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+}
+
+.tarjeta{
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: rgb(248, 253, 222);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0,0.3);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.tarjeta:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0,0.5);
+    transform: translateY(-3%);
+    
+}
+
+
+#solop{
+    line-height: 1.5;
+    color: rgb(72, 73, 73);
+}
+
+#soloh3{
+    font-weight: 400;
+    margin-bottom: 15px;
+    
+}
+
+#soloa{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #ac138b;
+    border: 1px solid #ac138b;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+
+#soloa:hover{
+    background: #ac138b;
+    color: #fff;
+
+}
